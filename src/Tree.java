@@ -1,4 +1,34 @@
-public class Tree {
+public class Tree implements MultiSet{
+
+    @java.lang.Override
+    public boolean add(Object item) {
+        return false;
+    }
+
+    @java.lang.Override
+    public void remove(Object item) {
+
+    }
+
+    @java.lang.Override
+    public boolean contains(Object item) {
+        return false;
+    }
+
+    @java.lang.Override
+    public boolean is_empty() {
+        return false;
+    }
+
+    @java.lang.Override
+    public int count(Object item) {
+        return 0;
+    }
+
+    @java.lang.Override
+    public int size() {
+        return 0;
+    }
 }
 /*
     Carmen Chau's understanding of adts.py

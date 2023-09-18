@@ -1,13 +1,13 @@
-abstract class MultiSet {
-    public abstract boolean add(Object item);
+interface MultiSet {
+    public boolean add(Object item);
 
-    public abstract void remove(Object item);
+    public void remove(Object item);
 
-    public abstract boolean contains(Object item);
+    public boolean contains(Object item);
 
-    public abstract boolean is_empty();
+    public boolean is_empty();
 
-    public abstract int count(Object item);
+    public int count(Object item);
 
-    public abstract int size();
+    public int size();
 }
